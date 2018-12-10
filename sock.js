@@ -12,7 +12,7 @@ function pairsSocks(stocks) {
   for(var i = 0; i < sortedStocks.length - 1; i ++) {
     if (sortedStocks[i] === sortedStocks[i + 1]) {
       counter += 1; // or counter ++
-      i += 1; // or i ++ - increment the i to select the second element after this selected element.
+      i += 1; // or i ++  increment the i to select the second element after this selected element.
     }
     // here the i++ of the for will be add 1 again.
   }
